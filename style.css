@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Yaldevi", sans-serif;
+}
+
+h1 {
+  color: green;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 22px;
+}
+
+h6 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+label {
+  color: green;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.link {
+  margin-top: 42%;
+  margin-left: 74%;
+}
+button {
+  margin-left: 47%;
+}
+
+.myProducts-gallery img {
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+}
+
+.myProducts-gallery img:hover {
+  opacity: 1;
+}
+
+.myProducts-gallery {
+  float: left;
+}
+
+.myProducts {
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.image-container img {
+  height: 100px;
+  transition: transform 1s;
+}
+
+.image-container img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+
+.image-container {
+  float: left;
+  padding: 0px;
+  width: 70vw;
+  height: 0vh;
+}
+
+.logo img {
+  width: 1500px;
+  height: 100px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.aids {
+  margin-top: 340px;
+  margin-left: 366px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.aids img {
+  width: 200px;
+  height: 200px;
+}
+
+.aiml {
+  margin-top: -200px;
+  margin-left: 647px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.aiml img {
+  width: 200px;
+  height: 200px;
+}
+
+.airo {
+  margin-top: -203px;
+  margin-left: 925px;
+  margin-bottom: 15px;
+  margin-right: -165px;
+  width: 200px;
+  height: 200px;
+}
+.airo img {
+  width: 200px;
+  height: 200px;
+}
+.civil {
+  margin-top: 25px;
+  margin-left: 366px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.civil img {
+  width: 200px;
+  height: 200px;
+}
+.cse {
+  margin-top: -203px;
+  margin-left: 647px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.cse img {
+  width: 200px;
+  height: 200px;
+}
+.eee {
+  margin-top: -205px;
+  margin-left: 925px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.eee img {
+  width: 200px;
+  height: 200px;
+}
+.ece {
+  margin-top: 40px;
+  margin-left: 366px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.ece img {
+  width: 200px;
+  height: 200px;
+}
+.ise {
+  margin-top: -199px;
+  margin-left: 647px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.ise img {
+  width: 200px;
+  height: 200px;
+}
+.mech {
+  margin-top: -202px;
+  margin-left: 925px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.mech img {
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  margin-top: -202px;
+  margin-left: 1288px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+}
+.contact img {
+  width: 200px;
+  height: 200px;
+}
+.placement {
+  width: 200px;
+  height: 200px;
+  margin-top: -202px;
+  margin-left: 1288px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.placement img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(23%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(127%, 49%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle3 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(230%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle4 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(450%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle5 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(23%, 95%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle6 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(127%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle7 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(230%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle8 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(367%, 95%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle9 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(23%, 20%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle10 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(127%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle11 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(230%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .middle1 {
+  opacity: 1;
+}
+.container:hover .middle2 {
+  opacity: 1;
+}
+.container:hover .middle3 {
+  opacity: 1;
+}
+.container:hover .middle4 {
+  opacity: 1;
+}
+.container:hover .middle5 {
+  opacity: 1;
+}
+.container:hover .middle6 {
+  opacity: 1;
+}
+.container:hover .middle7 {
+  opacity: 1;
+}
+.container:hover .middle8 {
+  opacity: 1;
+}
+.container:hover .middle9 {
+  opacity: 1;
+}
+.container:hover .middle10 {
+  opacity: 1;
+}
+.container:hover .middle11 {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
